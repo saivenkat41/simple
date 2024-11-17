@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <description></description>
+    <display-name>storeDataServlet</display-name>
+    <servlet-name>storeDataServlet</servlet-name>
+    <servlet-class>com.sai.resume.storeDataServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>storeDataServlet</servlet-name>
+    <url-pattern>/storeDataServlet</url-pattern>
+  </servlet-mapping>
+  <display-name>simpleresumebuilder</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>retrieveServlet</display-name>
+    <servlet-name>retrieveServlet</servlet-name>
+    <servlet-class>com.sai.resume.retrieveServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>retrieveServlet</servlet-name>
+    <url-pattern>/retrieveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>StoreDataServlet</display-name>
+    <servlet-name>StoreDataServlet</servlet-name>
+    <servlet-class>com.sai.resume.storeDataServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StoreDataServlet</servlet-name>
+    <url-pattern>/StoreDataServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
